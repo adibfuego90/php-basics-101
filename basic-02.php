@@ -38,9 +38,15 @@ echo "number"; */
 
 // echo "my age is $a"; correctly worked 
 
+/* // Change than JavaScript 
+$x = '5' + '5';
+echo $x;  //output 10 
+echo gettype($x); //Integer not string 
+ */
 
 
-
+define ('HOST','localhost'); // work like const in js
+echo HOST;
 
 
 ?>
