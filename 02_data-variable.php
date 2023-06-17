@@ -45,8 +45,8 @@ echo gettype($x); //Integer not string
  */
 
 
-define ('HOST','localhost'); // work like const in js
-echo HOST;
+/* define ('HOST','localhost'); // work like const in js
+echo HOST; */
 
 
 ?>
