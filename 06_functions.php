@@ -32,6 +32,10 @@ echo $subtract(12,13);
 */
 
 
+// Arrow function 
+
+$multiply = fn($x,$y) => $x * $y ;
+echo $multiply(12,2);
 
 
 ?>
