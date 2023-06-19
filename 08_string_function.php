@@ -44,5 +44,6 @@ $string = "Md. Adibur Rahman";
 echo htmlspecialchars($string2); */
 
 // printf("%s love %s","Adib","math");
-printf("1+1=%d", 1+1);
+// printf("1+1=%d", 1+1);
+// printf("1+1.23=%f",2.23);
 
