@@ -9,8 +9,10 @@
 /* echo $_GET['name'];
 echo $_GET['age']; */
 
-echo $_POST['name'];
-echo $_POST['age']; 
+if(isset($_POST['submit'])){
+  echo $_POST['name'];
+  echo $_POST['age'];
+} 
 ?>
 
 <!-- <a href="<?php echo $_SERVER["PHP_SELF"]; ?>?name=adib&age=30">Click</a>
@@ -29,7 +31,7 @@ echo $_POST['age'];
 
 
 
-<a href="<?php echo $_SERVER["PHP_SELF"]; ?>">Click</a>
+<!-- <a href="<?php echo $_SERVER["PHP_SELF"]; ?>">Click</a> -->
 
 <form action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="POST">
  <div>
