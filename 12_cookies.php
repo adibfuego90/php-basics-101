@@ -11,4 +11,4 @@ if(isset($_COOKIE["name"])){
 }
 
 // Delete cookies
-setcookie('name','',time()-86400);
+setcookie("name",'',time()-86400);
