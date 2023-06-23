@@ -13,5 +13,10 @@ if(file_exists($file)){
 
   echo $contents;
 }else{
+  $handle = fopen($file,'w');
+  $contents = "Adib " .PHP_EOL . "muhin";
+  fwrite($handle,$contents);
+  fclose($handle);
+
   
 }
