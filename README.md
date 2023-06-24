@@ -10,7 +10,6 @@ This repository is a comprehensive resource for learning PHP basics. Whether you
 - [Getting Started](#getting-started)
 - [Topics Covered](#topics-covered)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -49,8 +48,6 @@ PHP Basics 101 covers the following topics:
 5. Functions and Parameters
 6. Arrays
 7. Strings
-8. Object-Oriented Programming (OOP) Basics
-9. File Handling
 
 Each topic folder contains code examples and exercises that gradually build upon the previously covered concepts. It is recommended to follow the topics sequentially to ensure a smooth learning experience.
 
@@ -58,6 +55,3 @@ Each topic folder contains code examples and exercises that gradually build upon
 
 Contributions to this repository are welcome! If you find any issues, typos, or have suggestions for improvement, please feel free to open an issue or submit a pull request. Your contributions can help enhance the learning experience for others.
 
-## License
-
-This project is licensed under the [MIT License](https://github.com/adibfuego90/php-basics-101/blob/main/LICENSE).
